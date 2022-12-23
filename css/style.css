@@ -1,0 +1,168 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+*body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+
+/*global css code for title*/
+.title{
+	width: 100%;
+}
+.title h1{
+	font-size: 48px;
+	line-height: 74px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #204f87;
+	margin: 0px 0px 20px;
+
+
+}
+
+
+
+/*header css start*/
+.header{
+	width: 100%;
+	padding: 10px 0px;
+	background: #fff;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0px 0px 0px 20px;
+	color: #204f87;
+	transition: 1s;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+	color: #f15e2b;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:focus{
+	color: #f15e2b;
+}
+/*header css end*/
+
+/*slider css start*/
+.slider{
+	width: 100%;
+	padding: 35px 0px;
+	background: url("../images/slider.png") center top no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.inner-slider{
+	width: 100%;
+	padding: 150px 0px 50px;
+
+	
+}
+.inner-slider h1{
+	font-size: 64px;
+	line-height: 74px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+
+}
+.inner-slider .arrow{
+	width: 100%;
+	padding: 170px 0px 0px;
+
+}
+.inner-slider .arrow .fa{
+	font-size: 35px;
+	color: #fff;
+
+}
+
+/*slider css end*/
+
+/*about-us css start*/
+.about-us{
+	width: 100%;
+	padding: 80px 0px;
+}
+.about-us .title{
+	margin: 40px 0px 0px;
+}
+.about-us .title p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #b0b0b1;
+}
+.inner-img{
+	width: 100%;
+	text-align: right;
+}
+
+/*about-us css end*/
+
+/*we do css start*/
+
+.what-we{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/wedo.png") center top no-repeat;
+	background-size: cover;
+}
+
+.what-we .title{
+	text-align: center;
+	padding: 0px 0px 80px;
+}
+.what-we .card {
+	
+	text-align: center;
+	border: none;
+
+}
+.what-we .card .card-title{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 600;
+	margin: 190px 0px;
+	color: #fff;
+}
+
+
+.what-we .card .long-arrow{
+	width: 100%;
+
+}
+.what-we .card .long-arrow img{
+	position: absolute;
+	bottom: 15%;
+	left: 40%;
+	transform: translate(50%, 50%);
+
+}
+
+/*we do css end*/
+
+
+
+
+
+
+
